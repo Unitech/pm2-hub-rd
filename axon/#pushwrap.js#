@@ -1,0 +1,16 @@
+
+var axon = require('pm2-axon');
+var Intercom = module.exports = {};
+
+Intercom.initServer = function() {
+  var sock    = axon.socket('push');
+  var client  = axon.socket('pull');
+
+  sock.bind
+};
+
+Intercom.initClient = function() {
+};
+
+Intercom.on = function() {
+};

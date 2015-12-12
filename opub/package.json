@@ -1,0 +1,15 @@
+{
+  "name": "xchange",
+  "version": "0.0.3",
+  "author" : "Alexandre Strzelewicz",
+  "dependencies": {
+    "debug" : "*"
+  },
+  "devDependencies": {
+    "should": "*",
+    "mocha" : "*"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  }
+}

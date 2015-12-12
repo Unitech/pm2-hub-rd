@@ -1,0 +1,42 @@
+{
+  "name": "interproc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^1.4.2",
+    "better-assert": "^1.0.2",
+    "blessed": "^0.1.61",
+    "chalk": "^1.1.1",
+    "chokidar": "^1.0.6",
+    "cli-table": "^0.3.1",
+    "commander": "^2.8.1",
+    "cron": "^1.0.9",
+    "debug": "^2.2.0",
+    "eventemitter2": "^0.4.14",
+    "ikt": "^0.0.0",
+    "isbinaryfile": "^2.0.4",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.10.6",
+    "nssocket": "^0.5.3",
+    "pidusage": "^0.1.1",
+    "pm2-axon": "^2.0.8",
+    "pm2-axon-rpc": "^0.3.6",
+    "pm2-deploy": "^0.2.1",
+    "pm2-multimeter": "^0.1.2",
+    "safe-clone-deep": "^1.0.5",
+    "semver": "^5.0.3",
+    "shelljs": "^0.5.3",
+    "should": "^4.6.5",
+    "vizion": "^0.2.11"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "mocha": "^1.21.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
